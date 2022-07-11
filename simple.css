@@ -1,0 +1,76 @@
+header{
+}
+
+.main{
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.header li{
+    /* float: left;
+    padding-left: 50px; */    
+}
+
+.header li a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+.header li a:hover {
+    background-color: black;
+    opacity: 0.6;
+}
+
+.content{
+    text-align: center;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.contact{
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer{
+    background: linear-gradient(90deg,#002e4b 20%,#2e415a);
+    padding-top: 50px;
+}
+
+footer p{
+    color: white;
+}
+
+footer h3{
+    color: white;
+}
+
+footer ul{
+    color: white;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footerul{
+    display: flex;
+}
+
+.school li{
+    padding-top: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
